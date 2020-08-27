@@ -4,10 +4,14 @@ Color primaryTextColor = Color(0xFF414C6B);
 Color secondaryTextColor = Color(0xFFE4979E);
 Color titleTextColor = Colors.white;
 Color contentTextColor = Color(0xff868686);
-Color navigationColor = Color(0xfff68401);
+Color navigationColor = Color(0xff6300ff);
 Color gradientStartColor = Color(0xff08D294);
 Color gradientEndColor = Color(0xff08D294);
 
+const kTextColor = Color(0xFF4e4e4e);
+const kTextLightColor = Color(0xFFACACAC);
+
+const kDefaultPaddin = 20.0;
 class Constants {
   static const String POPPINS = "Poppins";
   static const String OPEN_SANS = "OpenSans";

@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:errands_guy/constants/constants.dart';
 import 'package:errands_guy/ui_view/slider_layout_view.dart';
-import 'package:errands_guy/widgets/custom_font.dart';
 
 class LandingPage extends StatefulWidget {
   @override

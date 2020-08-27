@@ -63,24 +63,9 @@ class _SliderLayoutViewState extends State<SliderLayoutView> {
                       alignment: Alignment.bottomRight,
                       child: Padding(
                         padding: EdgeInsets.only(right: 15.0, bottom: 15.0),
-                        child: Text(
-                          Constants.NEXT,
-                          style: TextStyle(
-                            fontFamily: Constants.OPEN_SANS,
-                            fontWeight: FontWeight.w600,
-                            fontSize: 14.0,
-                            color: Colors.grey[700],
-                          ),
-                        ),
-                      ),
-                    ),
-                    Align(
-                      alignment: Alignment.bottomLeft,
-                      child: Padding(
-                        padding: EdgeInsets.only(left: 15.0, bottom: 15.0),
                         child: GestureDetector(
-                          onTap: (){
-                            Navigator.of(context).pushNamed('/homepage');
+                          onTap: () {
+                            Navigator.of(context).pushNamed('/login');
                           },
                           child: Text(
                             Constants.SKIP,
